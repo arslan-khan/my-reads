@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-import '../App.css';
-import Dashboard from '../Pages/Dashboard';
-import Search from '../Pages/Search';
-import { DASHBOARD, SEARCH } from '../Constants/PageURLs';
-import { getAll, update } from '../APIs/BooksAPI';
+import './App.css';
+import Dashboard from './Pages/Dashboard';
+import Search from './Pages/Search';
+import { DASHBOARD, SEARCH } from './Constants/PageURLs';
+import { getAll, update } from './APIs/BooksAPI';
 
 class App extends Component {
   state = { books: [] };
