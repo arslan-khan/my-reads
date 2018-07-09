@@ -6,6 +6,8 @@ A simple yet fully interactive and scale-able single page app to virtually manag
 
 **Note: This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).**
 
+1 - Before you start working, you first need to setup your environment. Make sure you have the following installed:
+
 - [Git](https://git-scm.com/)
 - [NodeJS](https://nodejs.org/en/)
 - [Yarn](https://yarnpkg.com/en/) (npm alternative but much better)
