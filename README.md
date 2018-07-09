@@ -1,6 +1,6 @@
 # My Reads - First project of Udacity's React nano degree
 
-A simple yet fully interactive and scale-able single page app to virtually manage books makes easy. Built with ReactJS only.
+A simple yet fully interactive and scale-able single page app to virtually manage books. Built with ReactJS only.
 
 ## Getting Started
 
