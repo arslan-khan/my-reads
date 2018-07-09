@@ -20,13 +20,13 @@ class App extends Component {
 
     if (!book.shelf) {
       book.shelf = shelf;
-      return this.setState(currentState => ({
-        books: currentState.books.concat(book)
+      return this.setState(({ books }) => ({
+        books: [...books, book]
       }));
     }
 
-    this.setState(currentState => ({
-      books: currentState.books.map(b => {
+    this.setState(({ books }) => ({
+      books: books.map(b => {
         if (b.id === book.id) b.shelf = shelf;
         return b;
       })

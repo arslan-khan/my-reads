@@ -32,7 +32,7 @@ class Search extends Component {
       booksCollection: booksCollection.map(bc => {
         this.props.books.forEach(book => {
           if (book.id === bc.id) {
-            bc.shelf = book.shelf;
+            bc = book;
           }
         });
         return bc;
